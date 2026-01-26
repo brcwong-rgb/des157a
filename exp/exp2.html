@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment 2</title>
+
+   
+</head>
+<body>
+
+    <h1>Favorite Color</h1>
+    <p id="message">Waiting for your color choice...</p>
+
+    <script>
+        /*
+        The program I created asks the user to choose their favorite color from a list that is provided in the prompt.
+        If the color is valid, it changes the background color of the page
+        and displays a message on the screen. This is done through the function #1 that checks if the color is valid,
+        then function #2 impacts the page based on the user input.
+        */
+
+    
+        var colors = ["red", "blue", "green", "yellow", "purple"];
+
+       
+        var userColor = prompt(
+            "Choose your favorite color from this list:" + colors.join(", ")
+        );
+
+        // Function #1 
+        function isValidColor(color) {
+            for (var i = 0; i < colors.length; i++) {
+                if (color === colors[i]) {
+                    return true; 
+                }
+            }
+            return false;
+        }
+
+        // Function #2 
+        function updatePage(color) {
+            var message = document.getElementById("message");
+
+            if (isValidColor(color)) {
+                document.body.style.backgroundColor = color;
+                message.textContent = "Awesome color choice :) The background is now " + color + ".";
+            } else {
+                message.textContent = "Sorry you choose a color that is not in the list. Please try again:/";
+            }
+        }
+
+       
+        if (userColor) {
+            updatePage(userColor.toLowerCase());
+        }
+    </script>
+
+</body>
+</html>
