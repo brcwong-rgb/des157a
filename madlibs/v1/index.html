@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MadLibs V1</title>
+
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:opsz,wght@18..144,700&display=swap"
+    rel="stylesheet">
+
+  <link href="styles.css" rel="stylesheet">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h2>MAD LIBS</h2>
+    <h1>The Boba Story</h1>
+  </header>
+
+  <main>
+    <section class="left-column">
+      
+      <p>
+        Boba is a widely recognized drink enjoyed by people around the world.
+        Originating in Taiwan, it has grown in popularity due to its unique
+        combination of tea, milk, and tapioca pearls. It’s time for you to write
+        your own boba story! 
+      </p>
+
+      <img
+        src="images/boba-illustration.png" width="336" height="424" alt="Illustrated boba drink">
+    </section>
+
+    <section class="right-column" id="madlibs-questions">
+   
+      <form>
+
+        <label for="noun1">Singular noun:</label>
+        <input type="text" id="noun1" required>
+
+        <label for="adjective1">Adjective:</label>
+        <input type="text" id="adjective1" required>
+
+        <label for="verb1">Verb:</label>
+        <input type="text" id="verb1" required>
+
+        <label for="boba">Name of your favorite boba drink:</label>
+        <input type="text" id="boba" required>
+
+        <label for="verb2">Verb ending in -ed:</label>
+        <input type="text" id="verb2" required>
+
+        <label for="adjective2">Adjective:</label>
+        <input type="text" id="adjective2" required>
+
+        <label for="noun2">Singular noun:</label>
+        <input type="text" id="noun2" required>
+
+        <input type="submit" value="Generate your boba story!">
+
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>DES 157A — Winter 2026</p>
+  </footer>
+
+  <div class="overlay">
+    <div class="overlay-content">
+      <h2>Your Boba Story</h2>
+      <p>
+        Your completed Boba story will appear here after you submit!!
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
+
