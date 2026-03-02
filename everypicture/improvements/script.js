@@ -16,16 +16,16 @@ const imageDescriptions = {
     "The Manthey GT3 RS rim feels engineered for the track. The lightweight design and aggressive cutouts show how Porsche prioritizes performance.",
 
   "Exhaust Setup of a Lamborghini Huracán":
-    "The Huracán exhaust is pure power. The symmetry and heat-stained metal make the rear is ready for the track.",
+    "The Huracán exhaust is pure power. The symmetry and heat-stained metal make the rear ready for the track and racing.",
 
   "s58 engine bay of a G80 M3":
     "The S58 engine represents modern BMW performance. It’s less raw than older M cars, but incredibly refined and powerful.",
 
   "Rear of a Nissan GT-R":
-    "The GT-R’s circular taillights are instantly recognizable. Even from behind, the design communicates legacy and dominance. It’s aggressive but clean.",
+    "The GT-R’s circular taillights are instantly recognizable. Even from behind, the design communicates legacy and dominance.",
 
   "Rim of an M5":
-    "The M5 rim feels subtle but intentional. It a sleeper sedan, yet it carries serious performance underneath.",
+    "The M5 rim feels subtle but intentional. It a sleeper sedan, yet it carries serious performance underneath its engine bay.",
 
   "f80 engine bay":
     "The F80 engine bay feels more mechanical and exposed compared to newer generations. It represents a transitional era between analog feel and digital infusion.",
