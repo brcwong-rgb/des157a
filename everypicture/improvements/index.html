@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, height=750">
+    <title>Everypicture</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Oh Scrap!</h1>
+    <h2>Cars are just pieces of scrap metal put together to make art.</h2>
+</header>
+
+<main class="main-container">
+
+    <div class="left-column">
+    <p class="zoom-instruction">
+  Click different areas of the image to zoom in and explore details.
+    </p>
+    <img src="images/car.jpg" 
+         alt="Main car view" 
+         class="brandon-img"
+         usemap="#car-map">
+
+  <map name="car-map">
+    <area id="area-front" 
+          shape="rect" 
+          coords="30,300,130,550" 
+          href="#" 
+          alt="Front of car">
+
+   
+    <area id="area-interior" 
+          shape="rect" 
+          coords="250,250,450,340" 
+          href="#" 
+          alt="Interior detail">
+</map>
+
+    
+    <div id="car-overlay" class="car-overlay hidden">
+        <img id="car-overlay-img" src= "images/car.jpg" alt= "Car detail">
+    </div>
+         
+        
+    </div>
+
+    <div class="right-column">
+        <div class="frame">
+          <div class="carousel" id="carousel">
+    <img src="images/carousel_1.png" alt="Manthey Porshe 911 GT3 rs rim">
+    <img src="images/carousel_2.png" alt="Exhaust Setup of a Lamborghini Huracán">
+    <img src="images/carousel_3.png" alt="s58 engine bay of a G80 M3">
+    <img src="images/carousel_4.png" alt="Rear of a Nissan GT-R">
+    <img src="images/carousel_5.png" alt="Rim of an M5">
+    <img src="images/carousel_6.png" alt="f80 engine bay">
+    <img src="images/carousel_7.png" alt="G82 Rims">
+
+    <img src="images/carousel_1.png" alt="Manthey Porshe 911 GT3 rs rim">
+    <img src="images/carousel_2.png" alt="Exhaust Setup of a Lamborghini Huracán">
+    <img src="images/carousel_3.png" alt="s58 engine bay of a G80 M3">
+    <img src="images/carousel_4.png" alt="Rear of a Nissan GT-R">
+    <img src="images/carousel_5.png" alt="Rim of an M5">
+    <img src="images/carousel_6.png" alt="f80 engine bay">
+    <img src="images/carousel_7.png" alt="G82 Rims">
+</div>
+
+        </div>
+    </div>
+
+</main>
+
+<div id="overlay" class="overlay hidden">
+    <div class="overlay-content">
+        <h1 id="overlay-title">Title</h1>
+        <p id="overlay-text">Description</p>
+    </div>
+</div>
+
+</body>
+</html>
