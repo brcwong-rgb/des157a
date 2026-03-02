@@ -31,7 +31,7 @@ const imageDescriptions = {
     "The F80 engine bay feels more mechanical and exposed compared to newer generations. It represents a transitional era between analog feel and digital infusion.",
 
   "G82 Rims":
-    "The G82 wheel design is bold and seperates itself form most black rims."
+    "The G82 wheel design is bold and seperates itself from most black rims."
 };
 
 images.forEach(function(image) {
