@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bearded or Bald Race</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+<h1>Bearded or Bald Coin Race</h1>
+
+<p class="instructions">
+Players take turns flipping a coin. If it lands on a bearded man, you earn 1 point.
+If it lands on a bald man, your turn ends. First player to reach 10 points wins.
+</p>
+</header>
+
+<main>
+
+<section class="scoreboard">
+
+<div class="player">
+<h3>Player 1</h3>
+<p class="score">0</p>
+</div>
+
+<div class="player">
+<h3>Player 2</h3>
+<p class="score">0</p>
+</div>
+
+</section>
+
+
+<section class="coin-area">
+
+<img src="images/beardcoin.png" width="200" height="200" alt="bearded coin">
+<img src="images/baldcoin.png" width="200" height="200" alt="bald coin">
+
+</section>
+
+
+<section class="controls">
+
+<button id="startgame">Start Game</button>
+
+<button id="flipcoin">Flip Coin</button>
+
+<button id="reset">Reset</button>
+
+</section>
+
+</main>
+
+</body>
+</html>
