@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bearded or Bald Dice Race</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+<h1>Bearded or Bald Dice Race</h1>
+
+<p class="instructions">
+Players take turns rolling a single dice. First player to reach 30 points wins.
+If a Beard coin appears you gain 15 points automatically.
+If a Bald coin appears your score resets to zero.
+Good luck!
+</p>
+
+</header>
+
+<main>
+
+<section class="scoreboard">
+
+<div class="player" id="player1">
+<h2>Player 1</h2>
+<p class="score" id="score1">0</p>
+</div>
+
+<div class="player" id="player2">
+<h2>Player 2</h2>
+<p class="score" id="score2">0</p>
+</div>
+
+</section>
+
+<section class="dice-area">
+<img id="dice" src="images/dice1.png" alt="dice" width="150" height="150">
+</section>
+
+<section class="coin-area" id="coin-area"></section>
+
+<section class="controls">
+
+<button id="startgame">Start Game</button>
+
+<button id="roll" style="display:none;">
+Roll Dice
+</button>
+
+<button id="reset" style="display:none;">
+Reset
+</button>
+
+</section>
+
+<section id="message"></section>
+
+</main>
+
+<footer>
+<p>
+Original sounds made with car keys, leftover wrapper, and a creative mind.
+</p>
+</footer>
+
+</body>
+</html>
